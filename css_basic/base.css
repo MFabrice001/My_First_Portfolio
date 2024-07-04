@@ -11,6 +11,11 @@ body {
   color: #333;
   padding: 20px;
   background-color: #f4f4f4;
+
+    /* Flexbox settings for body */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 /* Header styling */
@@ -46,6 +51,11 @@ main {
   padding: 20px;
   margin-top: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /* Flexbox settings for main */
+    display: flex;
+    flex-direction: row;
+    flex: auto;
 }
 
 main h1 {
@@ -77,6 +87,11 @@ aside {
   padding: 15px;
   margin-top: 20px;
   border-radius: 5px;
+
+   /* Flex settings for aside */
+   flex: 1;
+   overflow-y: auto;
+   border-radius: 5px;
 }
 
 /* Footer styling */
